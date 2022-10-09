@@ -102,9 +102,7 @@ Java script cheat sheets. All methods at fingertips.
 
 [4, 1, 2, 3].sort((a, b) => {return a - b}) // [1, 2, 3, 4]
 // Sorts the array in place, changing its element order.
-
-[1, 2, 3].reverse() // [3, 2, 1]
-
+  
 [1, 2, 3].join(", ") // "1, 2, 3"
 
 [1, 2, 3].reduce((sum, current) => sum + current, 0) // 6
@@ -115,5 +113,4 @@ Java script cheat sheets. All methods at fingertips.
 // the 3rd call: sum is 3, current is 3, result is 6
 
 Array.isArray([1, 2, 3]) // true
-
 ```
